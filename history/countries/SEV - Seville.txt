@@ -8,4 +8,15 @@ government_rank = 1
 religious_school = maliki_school
 add_army_professionalism = 0.1
 
-#abbadid	
+#Abbadid	
+1444.11.11 = {
+	monarch = {
+		name = "Yűsuf"
+		dynasty = "Abbadid"
+		birth_date = 1414.7.16
+		death_date = 1445.1.1
+		adm = 4
+		dip = 6
+		mil = 1
+	}
+}

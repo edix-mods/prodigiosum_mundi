@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-technology_group = muslim
+technology_group = iranian
 religion = sunni
 primary_culture = afghani
 capital = 446	# Herat

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = khorasani
 religion = sunni
-technology_group = muslim
+technology_group = iranian
 capital = 4326 # Nishapur
 
 1444.11.11 = {

@@ -4,5 +4,17 @@ primary_culture = slovak
 religion = catholic
 technology_group = eastern
 capital = 154 # Nitra
-fixed_capital = 154
+fixed_capital = 154 # Nitra
 government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "Hugolín"
+		dynasty = "Gavlovic"
+		birth_date = 1409.11.20
+		death_date = 1445.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

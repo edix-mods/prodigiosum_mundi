@@ -1,7 +1,19 @@
 government = monarchy
 add_government_reform = iqta
-technology_group = muslim
+technology_group = iranian
 religion = sunni
+religious_school = hanafi_school
 primary_culture = afghani
 capital = 451	# Kabul
-religious_school = hanafi_school
+
+1444.11.11 = {
+	monarch = {
+		name = "Ešot"
+		dynasty = "Shahzadaftab"
+		birth_date = 1409.7.15
+		death_date = 1445.1.1
+		adm = 6
+		dip = 4
+		mil = 1
+	}
+}

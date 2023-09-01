@@ -3,7 +3,7 @@ add_government_reform = feudal_theocracy
 primary_culture = persian
 religion = sunni
 religious_school = hanbali_school
-technology_group = muslim
+technology_group = iranian
 capital = 431 # Mogostan
 add_army_professionalism = 0.05
 

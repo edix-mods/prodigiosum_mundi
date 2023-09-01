@@ -8,3 +8,25 @@ technology_group = muslim
 capital = 2218	# Shiraz
 add_army_professionalism = 0.1
 
+1444.11.11 = {
+	monarch = {
+		name = "Ismail"
+		dynasty = "Seljuk"
+		birth_date = 1420.9.10
+		death_date = 1445.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+
+	heir = {
+		name = "Süleyman"
+		dynasty = "Seljuk"
+		birth_date = 1444.11.10
+		death_date = 1445.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+

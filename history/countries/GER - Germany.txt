@@ -1,7 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
+government_rank = 3
 technology_group = western
 primary_culture = saxon
+add_accepted_culture = czech
+add_accepted_culture = silesian
 religion = catholic
 capital = 266	# Prague
 
