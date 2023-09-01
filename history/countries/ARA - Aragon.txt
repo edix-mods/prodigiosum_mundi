@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = aragonese
+religion = catholic
+technology_group = western
+capital = 211 # Osca
+add_army_professionalism = 0.05
+government_rank = 1
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Artau II"
+		dynasty = "d'Aragó"
+		birth_date = 1395.10.25
+		death_date = 1445.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+
+	heir = {
+		name = "Guifré"
+		dynasty = "d'Aragó"
+		birth_date = 1416.1.26
+		death_date = 1445.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+
+	queen = {
+		name = "Agnes"
+		dynasty = "Folc de Cardona"
+		birth_date = 1406.5.9
+		death_date = 1445.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+		female = yes
+	}
+}
+

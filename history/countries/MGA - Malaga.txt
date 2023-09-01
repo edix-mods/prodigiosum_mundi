@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = taifa_reform
+primary_culture = andalucian
+religion = sunni
+technology_group = muslim
+capital = 4546	# Malaga
+government_rank = 1
+religious_school = maliki_school
+add_army_professionalism = 0.1
+
+#Zirid
+1444.11.11 = {
+	monarch = {
+		name = "Fath II"
+		dynasty = "Zirid"
+		birth_date = 1400.7.19
+		death_date = 1445.1.1
+		adm = 3
+		dip = 6
+		mil = 2
+	}
+}

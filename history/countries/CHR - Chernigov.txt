@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = surooriyah
+primary_culture = ryazanian
+capital = 289	# Chernigov
+fixed_capital = 289 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Romanid"
+		birth_date = 1413.9.7
+		death_date = 1445.1.1
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+
+	queen = {
+		name = "Agatha"
+		dynasty = "Rurikid"
+		birth_date = 1418.12.1
+		death_date = 1445.1.1
+		adm = 2
+		dip = 2
+		mil = 0
+		female = yes
+	}
+}

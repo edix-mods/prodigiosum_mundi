@@ -1,0 +1,850 @@
+bdj_1= {
+    slot = 1                   
+    ai = yes                 
+    has_country_shield = yes
+
+	potential = {
+		tag = BDJ
+	}
+
+    bdj_conquer_algavre = {
+        icon = mission_conquer_50_development
+        position = 2
+
+        required_missions = {
+            bdj_prepare_for_war
+        }
+
+        provinces_to_highlight = {
+            province_id = 230
+        }
+
+        trigger = {
+            230 = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        
+        effect = {
+            country_event_with_insight = {
+				id = bdj.1
+				insight_tooltip = bdj_idea_swap_tt
+			}
+            if = {
+				limit = {
+                    4548 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				4548 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    224 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				224 = { add_permanent_claim = ROOT }
+			}
+        }
+    }
+
+    bdj_conquer_seville = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+
+        required_missions = {
+            bdj_conquer_algavre
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 224
+                province_id = 4548 
+            }           
+        }
+
+        trigger = {
+            4548 = { country_or_non_sovereign_subject_holds = ROOT }
+            224 = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        
+        effect = {
+            if = {
+				limit = {
+                    225 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				225 = { add_permanent_claim = ROOT }
+			}
+        }
+    }
+
+    bdj_annex_qurtubah = {
+        icon = mission_cannons_firing
+        position = 4
+
+        required_missions = {
+            bdj_conquer_seville
+        }
+
+        provinces_to_highlight = {
+            province_id = 225
+        }
+
+        trigger = {
+            225 = { country_or_non_sovereign_subject_holds = ROOT }
+         }
+        
+        effect = {
+            every_province = {
+                limit = {
+                    region = iberia_region
+                    owner = {
+                        OR = {
+                            religion = sunni
+                            religion = shiite
+                            religion = ibadi
+                        }
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    bdj_unite_the_taifas = {
+        icon = mission_reclaim_andalucia
+        position = 5
+
+        required_missions = {
+            bdj_annex_qurtubah
+        }
+
+        provinces_to_highlight = {
+            all_province = {
+                region = iberia_region
+                NOT = { is_core = ROOT }
+                owner = {
+                    OR = {
+                        religion = sunni
+                        religion = shiite
+                        religion = ibadi
+                    }
+                }             
+            }         
+        }
+
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = bdj_unite_the_taifas_tt
+                NOT = {
+                    any_country = {
+                        capital_scope = { region = iberia_region }                   
+                        NOT = { tag = ROOT }
+                        OR = {
+                            religion = sunni
+                            religion = shiite
+                            religion = ibadi
+                        }
+                    }
+                }
+            }
+        }
+        
+        effect = {
+            alentejo_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+                    NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+            }
+            lower_andalucia_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+                    NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+            }
+            upper_andalucia_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+                    NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+            }
+            toledo_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+                    NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+            }
+            baleares_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+                    NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+            }
+            if = {
+				limit = {
+                    229 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				229 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    230 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				230 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    221 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				221 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    4547 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				4547 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    1750 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				1750 = { add_permanent_claim = ROOT }
+			}
+            if = {
+				limit = {
+                    4549 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				4549 = { add_permanent_claim = ROOT }
+			}
+        }
+    }
+
+    bdj_restore_alandalus = {
+        icon = mission_restore_caliphate_of_cordoba
+        position = 6
+
+        required_missions = {
+            bdj_unite_the_taifas
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                area = upper_andalucia_area
+                area = lower_andalucia_area
+                province_id = 229
+                province_id = 230
+                province_id = 221
+                province_id = 4547
+                province_id = 1750
+                province_id = 4549
+            }
+        }
+
+        trigger = {
+            upper_andalucia_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            lower_andalucia_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            230 = { country_or_non_sovereign_subject_holds = ROOT }
+            221 = { country_or_non_sovereign_subject_holds = ROOT }
+            4547 = { country_or_non_sovereign_subject_holds = ROOT }
+            1750 = { country_or_non_sovereign_subject_holds = ROOT }
+            4549 = { country_or_non_sovereign_subject_holds = ROOT }
+            NOT = { exists = ADU }
+            is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 221			
+			owns_core_province = 223			
+			owns_core_province = 224			
+			owns_core_province = 226			
+			owns_core_province = 1748			
+			owns_core_province = 1749			
+			owns_core_province = 222			
+			owns_core_province = 4547
+			owns_core_province = 4548
+			owns_core_province = 225	
+            owns_core_province = 230
+            owns_core_province = 229
+            owns_core_province = 1750
+            owns_core_province = 4549		
+			225 = { 							
+				is_state = yes
+			}
+		}
+        
+        effect = {
+            225 = {	#Cordoba
+				move_capital_effect = yes
+			}
+			change_tag = ADU
+			on_change_tag_effect = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			set_capital = 225 # Cordoba
+			if = {
+				limit = {
+					NOT = { primary_culture = andalucian }
+				}
+				change_primary_culture = andalucian
+			}
+			if = {
+				limit = { 
+					NOT = { government = monarchy }
+					is_revolutionary = no
+				}
+				change_government = monarchy
+			}
+			if = {
+				limit = { is_revolutionary = no }
+				add_government_reform = al_andalusia_government
+			}
+			lower_andalucia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			toledo_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+            extremadura_area = {
+                limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+            }
+            valencia_area = {
+                limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+            }
+            baleares_area = {
+                limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+            }
+			set_country_flag = formed_andalusia_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}		
+        }
+    }
+}
+
+bdj_2 = {
+    slot = 2                   
+    ai = yes                 
+    has_country_shield = yes
+
+	potential = {
+		tag = BDJ
+	}
+
+    bdj_prepare_for_war = {
+        icon = mission_assemble_an_army
+        position = 1
+
+        trigger = {
+            num_of_generals = 1
+            army_size = 1
+        }
+        
+        effect = {
+            if = {
+				limit = {
+                    230 = {
+					    NOT = { is_core = ROOT }
+					    NOT = { is_permanent_claim = ROOT }
+                    }
+				}
+				230 = { add_permanent_claim = ROOT }
+			}
+            beieras_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+
+    bdj_destroy_portugal = {
+        icon = mission_lusitanian_empire
+        position = 2
+
+        required_missions = {
+            bdj_prepare_for_war
+        }
+
+        provinces_to_highlight = {
+            area = beieras_area
+        }
+
+        trigger = {
+            beieras_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        
+        effect = {
+            galicia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+            every_province = {
+                limit = {
+                    owner = { tag = LON }
+                }
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    bdj_destroy_leon = {
+        icon = mission_lusitanian_empire
+        position = 3
+
+        required_missions = {
+            bdj_destroy_portugal
+        }
+
+        provinces_to_highlight = {
+            all_province = {
+                owner = { tag = LON }
+            }
+        }
+
+        trigger = {
+            NOT = { exists = LON }
+        }
+        
+        effect = {
+            every_province = {
+                limit = {
+                    owner = { tag = ASU }
+                }
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    bdj_avenge_covadonga = {
+        icon = mission_lusitanian_empire
+        position = 4
+
+        required_missions = {
+            bdj_destroy_leon
+            bdj_expand_northwards
+        }
+
+        provinces_to_highlight = {
+            any_province = {
+                owner = { tag = ASU }
+            }
+        }
+
+        trigger = {
+            NOT = { exists = ASU }
+        }
+        
+        effect = {
+            every_province = {
+                limit = {
+                    region = iberia_region
+                    owner = { 
+                        OR = {
+                            religion = catholic
+                            religion = protestant
+                            religion = reformed
+                            religion = anglican
+                            religion = hussite
+                            religion = orthodox
+                            religion = nestorian
+                            religion = kirisutokyo
+                        } 
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    bdj_eliminate_christian_kingdom = {
+        icon = mission_lusitanian_empire
+        position = 5
+
+        required_missions = {
+            bdj_avenge_covadonga
+        }
+
+        provinces_to_highlight = {
+            all_province = {
+                region = iberia_region
+                NOT = { is_core = ROOT }
+                owner = {
+                    OR = {
+                        religion = catholic
+                        religion = protestant
+                        religion = reformed
+                        religion = anglican
+                        religion = hussite
+                        religion = orthodox
+                        religion = nestorian
+                        religion = kirisutokyo
+                    }
+                }             
+            }  
+        }
+
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = bdj_eliminate_christian_kingdom_tt
+                NOT = {
+                    any_country = {
+                        capital_scope = { region = iberia_region }                   
+                        NOT = { tag = ROOT }
+                        OR = {
+                            religion = catholic
+                            religion = protestant
+                            religion = reformed
+                            religion = anglican
+                            religion = hussite
+                            religion = orthodox
+                            religion = nestorian
+                            religion = kirisutokyo
+                        }
+                    }
+                }
+            }
+        }
+        
+        effect = {
+            country_event_with_insight = {
+				id = bdj.2
+				insight_tooltip = bdj_convert_iberia_tt
+			}
+        }
+    }
+}
+
+bdj_3 = {
+    slot = 3                   
+    ai = yes                 
+    has_country_shield = yes
+
+	potential = {
+		tag = BDJ
+	}
+
+    bdj_expand_northwards = {
+        icon = mission_lusitanian_empire
+        position = 3
+
+        required_missions = {
+            bdj_destroy_portugal
+        }
+
+        provinces_to_highlight = {
+            area = galicia_area
+        }
+
+        trigger = {
+            galicia_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        
+        effect = {
+            add_prestige = 15
+            add_adm_power = 75
+            add_mil_power = 75
+        }
+    }
+}
+
+bdj_4 = {
+    slot = 4                  
+    ai = yes                 
+    has_country_shield = yes
+
+	potential = {
+		tag = BDJ
+	}
+
+    bdj_great_mosque_of_badajoz = {
+        icon = mission_into_persia_1
+        position = 1
+
+        provinces_to_highlight = {
+            province_id = 218
+        }
+
+        trigger = {
+            218 = { base_tax = 8 }
+            ROOT = { owns_or_non_sovereign_subject_of = 218 }
+        }
+        
+        effect = {
+            218 = { add_building = temple }
+        }
+    }
+
+    bdj_develop_badajoz = {
+        icon = mission_conquer_algiers
+        position = 2
+
+        required_missions = {
+            bdj_great_mosque_of_badajoz
+        }
+
+        provinces_to_highlight = {
+            province_id = 218
+        }
+
+        trigger = {
+            218 = { development = 20 }
+            ROOT = { owns_or_non_sovereign_subject_of = 218 }
+        }
+        
+        effect = {
+            218 = {
+                add_province_modifier = { 
+                    name = growth_of_capital
+                    duration = 360  
+                }
+                center_of_trade = 1
+            }
+        }
+    }
+
+    bdj_develop_lixbuna = {
+        icon = mission_imperial_cities
+        position = 3
+
+        required_missions = {
+            bdj_develop_badajoz
+        }
+
+        provinces_to_highlight = {
+            province_id = 227
+        }
+
+        trigger = {
+            227 = { development = 20 }
+        }
+        
+        effect = {
+            227 = {
+                add_province_modifier = { 
+                    name = growing_economy
+                    duration = 360  
+                }
+                add_great_project_tier = {
+                    type = belem_tower
+                    tier = 1
+                }
+            }          
+        }
+    }
+
+    bdj_invest_into_military = {
+        icon = mission_levantine_restoration
+        position = 4
+
+        trigger = {
+            barracks = 10
+        }
+        
+        effect = {
+            add_country_modifier = {
+                name = invested_in_army
+                duration = -1
+            }          
+        }
+    }
+}
+
+bdj_5 = {
+    slot = 5                  
+    ai = yes                 
+    has_country_shield = yes
+
+	potential = {
+		tag = BDJ
+	}
+
+    bdj_colonize_azores = {
+        icon = mission_settlers_north_america
+        position = 1
+
+        provinces_to_highlight = {
+            province_id = 367
+            province_id = 4997
+        }
+
+        trigger = {
+            ROOT = { owns_or_non_sovereign_subject_of = 367 } 
+        }
+        
+        effect = {
+            227 = {
+                add_unit_construction = {
+                    type = light_ship
+                    amount = 3
+                    speed = 0.1
+                    cost = 0
+                }
+            }
+            create_explorer = { tradition = 50 }
+        }
+    }
+
+    bdj_explore_the_ocean = {
+        icon = mission_launch_a_flagship
+        position = 2
+
+        required_missions = {
+            bdj_colonize_azores
+        }
+
+        trigger = {
+            any_province = {
+                OR = {
+                    region = brazil_region
+                    region = colombia_region
+                    region = carribeans_region
+                }
+                has_discovered = ROOT                
+            }
+        }
+        
+        effect = {
+            add_country_modifier = {
+                name = colonial_enthusiasm
+                duration = 3650
+            }
+        }
+    }
+
+    bdj_colonize_brazil = {
+        icon = mission_iberian_conquistador
+        position = 3
+
+        required_missions = {
+            bdj_explore_the_ocean
+        }
+
+        trigger = {
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_brazil
+                is_city = yes
+            }
+        }
+        
+        effect = {
+            add_country_modifier = {
+                name = colonial_development
+                duration = 7300
+            }         
+        }
+    }
+
+    bdj_colonize_carribean = {
+        icon = mission_colonize_the_caribbean
+        position = 4
+
+        required_missions = {
+            bdj_colonize_brazil
+        }
+
+        trigger = {
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_the_carribean
+                is_city = yes
+            }
+        }
+        
+        effect = {
+            add_country_modifier = {
+                name = increased_tariffs
+                duration = 7300
+            }          
+        }
+    }
+}

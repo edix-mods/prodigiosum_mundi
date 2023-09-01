@@ -1,0 +1,27 @@
+#2424 - Przemysl
+
+owner = LUD
+controller = LUD
+culture = Lendian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 1
+capital = "Przemysl"
+is_city = yes
+estate = estate_nobles
+add_core = LUD
+
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = muslim

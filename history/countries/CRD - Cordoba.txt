@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = andalucian
+religion = sunni
+technology_group = muslim
+capital = 225	# Cordoba
+government_rank = 1
+religious_school = maliki_school
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad VIII"
+		dynasty = "Umayyad"
+		birth_date = 1424.1.1
+		death_date = 1445.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

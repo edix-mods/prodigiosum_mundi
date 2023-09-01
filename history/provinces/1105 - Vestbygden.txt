@@ -1,0 +1,14 @@
+#1105 - Vestbygden
+
+owner = ICE
+controller = ICE
+add_core = ICE
+culture = inuit
+trade_goods = fish
+religion = norse_pagan_reformed
+is_city = yes
+capital = "Vestbygden"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

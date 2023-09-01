@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = khorasani
+religion = sunni
+technology_group = muslim
+capital = 4326 # Nishapur
+
+1444.11.11 = {
+	monarch = {
+		name = "Mahmûd"
+		dynasty = "Afsharid"
+		birth_date = 1397.11.24
+		death_date = 1444.1.1
+		adm = 5
+		dip = 5
+		mil = 0
+	}
+
+	queen = {
+		name = "Tarifa"
+		dynasty = "Kujuji"
+		birth_date = 1401.7.11
+		adm = 4
+		dip = 1
+		mil = 0
+	}
+}

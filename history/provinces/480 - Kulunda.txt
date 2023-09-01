@@ -1,0 +1,17 @@
+#480 - Kulunda
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = kirgiz
+religion = tengri_pagan_reformed
+capital = "Pegaya Orda"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = nomad_group
+discovered_by = iranian
+

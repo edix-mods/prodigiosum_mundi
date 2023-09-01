@@ -1,0 +1,20 @@
+#718 - Govi Altay
+
+owner = SHY		# The Oirads united much of Mongolia
+controller = SHY
+add_core = SHY
+culture = oirats
+religion = sunni
+capital = "Kobdo"
+trade_goods = cloth
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group
+

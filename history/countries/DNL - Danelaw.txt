@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = danish
+religion = catholic
+technology_group = western
+capital = 245 #York
+
+1444.1.1 = {
+	monarch = {
+		name = "Harald"
+		dynasty = "Knytlinga"
+		birth_date = 1380.5.26
+		death_date = 1445.1.1
+		adm = 6
+		dip = 2
+		mil = 6
+	}
+
+	heir = {
+		name = "Alfred"
+		dynasty = "Knytlinga"
+		birth_date = 1401.1.16
+		death_date = 1445.1.1
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}

@@ -1,0 +1,16 @@
+convert_heathens = {
+    global_missionary_strength = 0.02
+}
+
+invested_in_army = {
+    reinforce_cost_modifier = -0.15
+    manpower_recovery_speed = 0.15
+}
+
+colonial_development = {
+    colony_development_boost = 1
+}
+
+increased_tariffs = {
+    global_tariffs = 0.2
+}

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = english
+religion = catholic
+government_rank = 1
+capital = 235 # Kent
+
+1444.1.1 = {
+	monarch = {
+		name = "Richard II"
+		dynasty = "Holland"
+		birth_date = 1416.4.27
+		death_date = 1445.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

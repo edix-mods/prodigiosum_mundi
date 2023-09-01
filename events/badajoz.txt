@@ -1,0 +1,59 @@
+namespace = bdj
+
+# National idea decision event
+country_event = {
+	id = bdj.1
+	title = bdj.1.t
+	desc = bdj.1.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { # Change
+		name = bdj.1.a
+		set_country_flag = BDJ_idea_change_flag
+		swap_free_idea_group = yes
+	}
+
+	option = { # Keep
+		name = bdj.1.b
+	}
+}
+
+country_event = {
+	id = bdj.2
+	title = bdj.2.t
+	desc = bdj.2.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { # Convert
+		name = bdj.2.a
+		add_country_modifier = {
+			name = convert_heathens
+			duration = 3650
+		}
+	}
+
+	option = { # Tolerate
+		name = bdj.2.b
+		if = {
+			limit = {
+				reform_level = 4
+			}
+			add_government_reform = altaayish_reform
+		}
+		else = {
+			change_government_reform_progress = 100
+		}
+	}
+}

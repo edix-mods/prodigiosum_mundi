@@ -1,0 +1,35 @@
+# Italy
+LOM = "countries/Lombardy.txt"
+CAP = "countries/Capua.txt"
+BNV = "countries/Benevento.txt"
+API = "countries/Apulia.txt"
+SLR = "countries/Salerno.txt"
+
+# Seljuks
+SEL = "countries/Seljuks.txt"
+
+# Eastern Europe
+PNN = "countries/Pannonia.txt"
+VIS = "countries/Vistulans.txt"
+LUD = "countries/Lendians.txt"
+PLN = "countries/Polans.txt"
+PRR = "countries/Pruthenia.txt"
+WRT = "countries/WhiteRuthenia.txt"
+VLD = "countries/Vladimir.txt"
+PDL = "countries/Podolia.txt"
+VLG = "countries/Vologda.txt"
+CUR = "countries/Curonia.txt"
+
+# Britain
+WSX = "countries/Wessex.txt"
+SSX = "countries/Sussex.txt"
+MRC = "countries/Mercia.txt"
+KNT = "countries/Kent.txt"
+ESX = "countries/Essex.txt"
+EAN = "countries/Eastanglia.txt"
+
+# Japan
+NGO = "countries/Nagao.txt"
+
+# Americas
+TII = "countries/Taino.txt"

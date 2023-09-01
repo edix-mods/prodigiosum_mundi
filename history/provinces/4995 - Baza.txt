@@ -1,0 +1,19 @@
+#4787 - Ribatejo
+
+owner = GRA
+controller = GRA
+add_core = GRA
+culture = andalucian
+religion = sunni
+capital = "Baza"
+trade_goods = livestock
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+

@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = danish
+add_accepted_culture = english
+religion = catholic
+capital = 244 # Lancaster
+fixed_capital = 246	# Newcastle
+
+1444.11.11 = {
+	monarch = {
+		name = "Kristian"
+		dynasty = "Juul"
+		birth_date = 1406.12.1
+		death_date = 1445.1.1
+		adm = 5
+		dip = 3
+		mil = 3
+		culture = danish
+	}
+
+	heir = {
+		name = "Erik"
+		dynasty = "Juul"
+		birth_date = 1426.8.19
+		death_date = 1445.1.1
+		adm = 1
+		dip = 1
+		mil = 6
+		culture = danish
+	}
+
+	queen = {
+		name = "Elizabeth"
+		dynasty = "Lancaster"
+		birth_date = 1414.5.6
+		death_date = 1445.1.1
+		adm = 3
+		dip = 6
+		mil = 3
+		female = yes
+		culture = english
+	}
+}
+

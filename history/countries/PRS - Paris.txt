@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = peasants_republic
+government_rank = 1
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 183	# Paris
+fixed_capital = 183 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Barthélémi"
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}

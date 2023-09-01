@@ -1,0 +1,220 @@
+#Navarra-Rioja
+vassal = {
+	first = NAV
+	second = RIO
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Tunis-Majorca
+vassal = {
+	first = TUN
+	second = MJO
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Pope-Capua
+vassal = {
+	first = PAP
+	second = CAP
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Pope-Urbino
+vassal = {
+	first = PAP
+	second = URB
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Pope-Perugia
+vassal = {
+	first = PAP
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Pope-Spoleto
+vassal = {
+	first = PAP
+	second = SPL
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Byzantium - Bulgaria
+vassal = {
+	first = BYZ
+	second = BUL
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Byzantium - Siroidisids alliance
+alliance = {
+	first = BYZ
+	second = SIR
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Byzantium - Siroidisids guarantee
+guarantee = {
+	first = BYZ
+	second = SIR
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+#Georgia - Imereti
+vassal = {
+	first = GEO
+	second = IME
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Georgia - Yerevan
+vassal = {
+	first = GEO
+	second = YER
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Shahzadaftabistan - Naseemshah
+vassal = {
+	first = SHH
+	second = NAS
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Galicia-Volhynia - Podolia
+vassal = {
+	first = VOL
+	second = PDL
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Novgorod - Beloozero
+vassal = {
+	first = NOV
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Hungary - Perm
+vassal = {
+	first = HUN
+	second = PRM
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Finland - Sapmi
+vassal = {
+	first = FIN
+	second = SMI
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Bijapur - Ahmednagar
+guarantee = {
+	first = BIJ
+	second = AHM
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Graeco-India - Jharkhand
+vassal = {
+	first = GIK
+	second = NGP
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Graeco-India - Bishnupur
+vassal = {
+	first = GIK
+	second = MBL
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Khmer - Ayutthaya
+vassal = {
+	first = KHM
+	second = AYU
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Morocco - Sale
+march = {
+	first = MOR
+	second = SLE
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Morroco - Tetouan
+march = {
+	first = MOR
+	second = TET
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Castille - Soria
+royal_marriage = {
+	first = CAS
+	second = SRA
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+## Mongol Substates
+# Shaybanids - Golden Horde
+dependency = {
+	subject_type = "mongol_substate"
+	first = SHY
+	second = GLH
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Shaybanids - Yuan
+dependency = {
+	subject_type = "mongol_substate"
+	first = SHY
+	second = YUA
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Shaybanids - Ilkhanate
+dependency = {
+	subject_type = "mongol_substate"
+	first = SHY
+	second = ILK
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}
+
+# Shaybanids - Chagatai
+dependency = {
+	subject_type = "mongol_substate"
+	first = SHY
+	second = CHG
+	start_date = 1444.1.1
+	end_date = 1445.1.1
+}

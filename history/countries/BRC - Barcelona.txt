@@ -1,0 +1,18 @@
+government = republic
+
+add_government_reform = free_city
+
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 213	# Barcelona
+government_rank = 1
+
+1444.1.1 = {
+	monarch = {
+		name = "Pere"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = azerbaijani
+add_accepted_culture = kurdish
+add_accepted_culture = persian
+religion = orthodox
+technology_group = eastern
+capital = 416	# Tabriz
+government_rank = 1
+add_army_professionalism = 0.05
+add_historical_friend = BYZ

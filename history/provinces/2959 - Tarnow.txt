@@ -1,0 +1,26 @@
+#2959 - Tarnow
+
+owner = LUD
+controller = LUD
+capital = "Tarnów"
+culture = Lendian
+religion = catholic
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+estate = estate_nobles
+add_core = LUD
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

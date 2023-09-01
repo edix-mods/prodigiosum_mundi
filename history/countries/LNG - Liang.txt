@@ -1,0 +1,39 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = mahayana
+primary_culture = zhongyuan
+capital = 688	#Kaifeng
+
+1444.1.1 = {
+	monarch = {
+		name = "Shanghong"
+		dynasty = "Li"
+		birth_date = 1409.12.5
+		death_date = 1445.1.1
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+
+	heir = {
+		name = "Shen"
+		dynasty = "Li"
+		birth_date = 1432.10.29
+		death_date = 1445.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+
+	queen = {
+		name = "Yuantong"
+		dynasty = "Xie"
+		birth_date = 1412.5.24
+		death_date = 1445.1.1
+		adm = 4
+		dip = 4
+		mil = 2
+		female = yes
+	}
+}

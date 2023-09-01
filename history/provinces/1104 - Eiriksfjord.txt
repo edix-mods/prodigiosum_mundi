@@ -1,0 +1,14 @@
+#1104 - Eiriksfjord
+
+owner = ICE
+controller = ICE
+add_core = ICE
+culture = inuit
+religion = norse_pagan_reformed
+trade_goods = fish
+is_city = yes
+capital = "Eiriksfjord"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

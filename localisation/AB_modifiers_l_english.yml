@@ -1,0 +1,10 @@
+﻿l_english:
+ han_estuary_modifier:0 "Hangang Estuary"
+ desc_han_estuary_modifier:0 "Controlling the important river estuary of Hangang strengthens our hold of the trade in the region."
+ hai_estuary_modifier:0 "Hai Estuary"
+ desc_hai_estuary_modifier:0 "Controlling the important river estuary of Hai strengthens our hold of the trade in the region."
+ amur_estuary_modifier:0 "Amur Estuary"
+ desc_amur_estuary_modifier:0 "Controlling the important river estuary of Amur strengthens our hold of the trade in the region."
+ SCRAMBLE_FOR_AFRICA_PROVINCE:0 "In order to colonize this province, you need to unlock §YScramble for Africa§!, diplomatic technology §Y33§!."
+ scramble_for_africa:0 "Inland African Province"
+ desc_scramble_for_africa:0 "This province is way too difficult and costly to colonize with our current technology. Most nations are only able to colonize the inland African provinces once they have unlocked the §YScramble for Africa§!, diplomatic technology §Y33§!, or §YGlobal Dominance§! ideas... which are not part of this mod, because I just copied the provinces."

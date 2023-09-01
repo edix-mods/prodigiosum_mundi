@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = kanauji
+religion = hellodharmism
+technology_group = indian
+capital = 522	# Delhi
+fixed_capital = 522 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "(Regency)"
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+
+	heir = {
+		name = "Alexander IX"
+		dynasty = "Alexandarid"
+		birth_date = 1444.1.1
+		death_date = 1445.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

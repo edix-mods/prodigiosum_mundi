@@ -1,0 +1,77 @@
+mongol_substate = {}
+
+mongol_substate = {
+
+	copy_from = default
+
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadclients 
+	diplomacy_subject_sprite = GFX_diplomacy_areclients
+
+	# Triggers:
+	is_potential_overlord = { always = yes } 
+
+	# Properties:
+	can_fight_independence_war = yes
+	joins_overlords_wars = yes
+	joins_colonial_wars = yes 
+	can_have_subjects_of_other_types = yes
+	takes_diplo_slot = yes
+	can_release_in_peace = yes
+	uses_military_focus = yes
+	gets_help_with_rebels = yes							
+	allows_taking_land_without_independence = yes
+	can_transfer_in_peace = no							
+	overlord_can_fabricate_for = yes
+	forms_trade_companies = no
+	extend_trading_range = yes
+
+	max_government_rank = 2								# 0 means no limit
+	trust_on_start = 50									
+
+	base_liberty_desire = 0.0
+	liberty_desire_negative_prestige = 0.1
+	liberty_desire_development_ratio = 0.25
+	liberty_desire_same_dynasty = -10.0
+	liberty_desire_revolution = 30.0					# Liberty desire at 100% revolution spread in country
+	pays_overlord = 1.5									# 1.0 represents the amount payed by vassals
+	forcelimit_to_overlord = 0.5						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.5					# Percent of subject FL to use as base for modifiers
+	#annex_cost_per_development = 8.0					# annex/integrate cost per development
+
+	can_fight = {
+		independent_nations = yes
+	}
+	can_ally = {
+		same_overlord = mongol_substate
+	}
+	can_marry = {
+		same_overlord = mongol_substate
+	}
+
+	support_loyalists = yes
+	scutage = yes
+	divert_trade= yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	place_relative_on_throne = yes
+	grant_province = yes
+	siphon_income = yes
+	grant_core_claim = yes
+	takeondebt = yes
+	bestow_gifts = yes
+	contribute_to_capital = yes
+	conscript_general = yes
+	request_extra_levies = yes
+	grant_administrative_autonomy = yes
+
+	# Modifiers:
+	modifier_subject = clear # Use this to clear after copy_from.
+	modifier_subject = { # Otherwise, this only adds modifiers, and doesn't remove previously added.
+		modifier = subject_nation
+	}
+	modifier_overlord = clear
+
+	overlord_opinion_modifier = null # If not "null" it will look for a modifier with that name in 00_opinion_modifiers.txt and other files in that directory.
+	subject_opinion_modifier = null
+}

@@ -1,0 +1,16 @@
+##### German autonomy #####
+low_autonomy = {
+    min_autonomy = 25
+}
+
+medium_autonomy = {
+    min_autonomy = 50
+}
+
+high_autonomy = {
+    min_autonomy = 75
+}
+
+near_total_autonomy = { #Near complete
+    min_autonomy = 90
+}

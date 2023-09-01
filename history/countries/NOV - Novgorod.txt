@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = veche_republic
+government_rank = 2
+mercantilism = 25
+primary_culture = novgorodian
+add_accepted_culture = karelian
+add_accepted_culture = pomorian
+religion = catholic
+technology_group = eastern
+capital = 310	# Novgorod
+fixed_capital = 310 # Cannot move capital away from this province & no power cost to move to it
+
+# Vanilla leader
+1429.1.1 = {
+	monarch = {
+		name = "Evfimy II"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

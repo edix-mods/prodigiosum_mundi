@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = iranian
+religion = sunni
+primary_culture = afghani
+capital = 451	# Kabul
+religious_school = hanafi_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Afshar"
+		dynasty = "Khalidzaid"
+		birth_date = 1423.10.17
+		death_date = 1445.1.1
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+
+	heir = {
+		name = "Muhammad"
+		dynasty = "Khalidzaid"
+		birth_date = 1442.4.25
+		death_date = 1445.1.1
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+
+	queen = {
+		name = "Lîza"
+		dynasty = "Talish"
+		birth_date = 1426.1.29
+		death_date = 1445.1.1
+		adm = 2
+		dip = 2
+		mil = 4
+		female = yes
+	}
+}

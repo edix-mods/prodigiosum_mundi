@@ -1,0 +1,82 @@
+badajoz_ideas = {
+	start = {
+		core_creation = -0.15
+		shock_damage_received = -0.1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = BDJ
+		NOT = { has_country_flag = BDJ_idea_change_flag }
+	}
+
+	free = yes
+	
+	BDJ_army = {
+		land_forcelimit_modifier = 0.15
+	}
+	BDJ_great_mosque_of_badajoz = {
+		global_tax_modifier = 0.1
+		monthly_piety = -0.001
+	}
+	BDJ_legacy_of_ibn_marwan = {
+		land_morale = 0.10
+	}
+	BDJ_fertile_lands_of_badajoz = {
+		development_cost = -0.1
+	}
+	BDJ_resistance_to_war = {
+		war_exhaustion_cost = -0.2
+	}
+	BDJ_candidate = {
+		prestige = 1
+	}
+	BDJ_artillery = {
+		artillery_power = 0.1
+		siege_ability = 0.05
+	}
+}
+
+badajoz_ideas_2 = {
+	start = {
+		core_creation = -0.15
+		shock_damage_received = -0.1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = BDJ
+		has_country_flag = BDJ_idea_change_flag
+	}
+
+	free = yes
+	
+	BDJ_exploration = {
+		colonists = 1
+		may_explore = yes
+	}
+	BDJ_great_mosque_of_badajoz = {
+		global_tax_modifier = 0.1
+	}
+	BDJ_trade = {
+		trade_efficiency = 0.15
+	}
+	BDJ_fertile_lands_of_badajoz = {
+		development_cost = -0.1
+	}
+	BDJ_warships = {
+		heavy_ship_power = 0.2
+	}
+	BDJ_candidate = {
+		prestige = 1
+	}
+	BDJ_artillery_2 = {
+		artillery_fire = 1
+	}
+}

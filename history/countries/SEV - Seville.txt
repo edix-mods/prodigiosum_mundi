@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = taifa_reform
+primary_culture = andalucian
+religion = sunni
+technology_group = muslim
+capital = 224	# Sevilla
+government_rank = 1
+religious_school = maliki_school
+add_army_professionalism = 0.1
+
+#abbadid	

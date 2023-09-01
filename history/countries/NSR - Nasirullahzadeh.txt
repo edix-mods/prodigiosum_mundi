@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+primary_culture = persian
+religion = sunni
+religious_school = hanbali_school
+technology_group = muslim
+capital = 431 # Mogostan
+add_army_professionalism = 0.05
+
+1444.11.11 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Nasirullah"
+		birth_date = 1416.3.14
+		death_date = 1445.1.1
+		adm = 4
+		dip = 0
+		mil = 6
+	}
+
+	heir = {
+		name = "Muhammad"
+		dynasty = "Nasirullah"
+		birth_date = 1436.5.20
+		death_date = 1445.1.1
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+
+	queen = {
+		name = "Farah"
+		dynasty = "Qajar"
+		birth_date = 1420.8.17
+		death_date = 1445.1.1
+		adm = 6
+		dip = 6
+		mil = 0
+		female = yes
+	}
+}
+

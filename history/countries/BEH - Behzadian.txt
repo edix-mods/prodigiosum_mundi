@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = azerbaijani
+religion = zoroastrian
+technology_group = iranian
+capital = 2215 # Qazvin
+add_army_professionalism = 0.05
+
+1444.1.1 = {
+	monarch = {
+		name = "Peroz I"
+		dynasty = "Behzadian"
+		birth_date = 1398.11.4
+		death_date = 1445.1.1
+		adm = 6
+		dip = 5
+		mil = 1
+	}
+
+	heir = {
+		name = "Peroz"
+		dynasty = "Behzadian"
+		birth_date = 1422.12.14
+		death_date = 1445.1.1
+		adm = 6
+		dip = 1
+		mil = 2
+	}
+
+	queen = {
+		name = "Amsha"
+		dynasty = "Chalabi"
+		birth_date = 1402.1.10
+		death_date = 1445.1.1
+		adm = 4
+		dip = 6
+		mil = 0
+		female = yes
+	}
+
+}

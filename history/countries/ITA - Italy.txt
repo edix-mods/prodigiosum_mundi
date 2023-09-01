@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+religion = catholic
+primary_culture = tuscan
+add_accepted_culture = romagnan
+capital = 114 # Ravenna
+fixed_capital = 118 # Rome
+
+1444.1.1 = {
+	monarch = {
+		name = "Claudio" 
+		dynasty = "Odovacarianus"
+		birth_date = 1409.3.18
+		death_date = 1445.1.1
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	
+	heir = {
+		name = "Settimio"
+		dynasty = "Odovacarianus"
+		birth_date = 1435.9.26
+		death_date = 1445.1.1
+		adm = 4
+		dip = 6
+		mil = 2
+	}
+
+}

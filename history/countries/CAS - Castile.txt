@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = castillian
+religion = catholic
+technology_group = western
+capital = 1746 # Burgos
+government_rank = 1
+add_army_professionalism = 0.1
+
+add_army_professionalism = 0.1
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Enrique III"
+		dynasty = "de Castilla"
+		birth_date = 1399.12.12
+		death_date = 1445.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+
+	heir = {
+		name = "Enrique"
+		dynasty = "de Castilla"
+		birth_date = 1426.12.24
+		death_date = 1445.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+
+	queen = {
+		name = "Maria"
+		dynasty = "de Soira"
+		birth_date = 1405.6.10
+		death_date = 1445.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+		female = yes
+		country_of_origin = SRA
+	}
+}

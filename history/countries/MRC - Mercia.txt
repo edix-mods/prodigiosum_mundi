@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = english
+religion = catholic
+government_rank = 1
+capital = 4372
+
+1444.11.11 = {
+	monarch = {
+		name = "Geoffrey I"
+		dynasty = "York"
+		birth_date = 1416.1.29
+		death_date = 1445.1.11
+		adm = 5
+		dip = 5
+		mil = 1
+	}
+}

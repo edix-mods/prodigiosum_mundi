@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+primary_culture = al_misr_arabic
+add_accepted_culture = kurdish
+religion = sunni
+religious_school = hanbali_school
+technology_group = muslim
+historical_rival = BYZ 
+capital = 361 # Cairo
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad XII"
+		dynasty = "Mahdiyya"
+		birth_date = 1395.4.25
+		death_date = 1445.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+
+	heir = {
+		name = "Ahmad"
+		dynasty = "Mahdiyya"
+		birth_date = 1423.2.27
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

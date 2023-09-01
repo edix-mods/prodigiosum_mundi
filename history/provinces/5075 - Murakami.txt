@@ -1,0 +1,23 @@
+#1024 - Echigo
+
+owner = NGO
+controller = NGO
+culture = togoku
+religion = shinto
+capital = "Murakami"
+trade_goods = fish
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = NGO
+
+
+
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU

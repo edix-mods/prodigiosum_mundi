@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+primary_culture = wallonian
+religion = catholic
+technology_group = western
+capital = 87	# Calais
+fixed_capital = 87 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Henry"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+

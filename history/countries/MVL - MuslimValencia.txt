@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = taifa_reform
+primary_culture = andalucian
+religion = sunni
+technology_group = muslim
+capital = 220	# Valencia
+government_rank = 1
+religious_school = maliki_school
+add_army_professionalism = 0.1
+
+#Amirid
+1444.11.11 = {
+	monarch = {
+		name = "Yusuf"
+		dynasty = "Amirid"
+		birth_date = 1398.9.12
+		death_date = 1445.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+
+	heir = {
+		name = "Umar"
+		dynasty = "Amirid"
+		birth_date = 1422.12.28
+		death_date = 1445.1.1
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+
+	queen = {
+		name = "Layla"
+		dynasty = "Sumadid"
+		birth_date = 1400.6.30
+		death_date = 1445.1.1
+		adm = 0
+		dip = 6
+		mil = 0
+	}
+}

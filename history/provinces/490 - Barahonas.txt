@@ -1,0 +1,18 @@
+#490 - Barahonas
+
+culture = arawak
+religion = animism
+capital = "Barahona"
+owner = TII
+controller = TII
+add_core = TII
+trade_goods = sugar 
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+discovered_by = CAB
+discovered_by = ARW
+
+extra_cost = 8
+center_of_trade = 1

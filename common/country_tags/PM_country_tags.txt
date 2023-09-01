@@ -1,0 +1,54 @@
+#If not found here, look in AB_country_tags.txt
+
+# Iberia
+BDJ = "countries/Badajoz.txt"
+AGV = "countries/Algarve.txt"
+SEV = "countries/Seville.txt"
+CRD = "countries/Cordoba.txt"
+MGA = "countries/Malaga.txt"
+TOL = "countries/Toledo.txt"
+MUR = "countries/Murcia.txt"
+MVL = "countries/MuslimValencia.txt"
+ZAR = "countries/Zaragoza.txt"
+BRC = "countries/Barcelona.txt"
+SRA = "countries/Soria.txt"
+RIO = "countries/Rioja.txt"
+
+# France
+ANJ = "countries/Anjou.txt"
+PRS = "countries/Paris.txt"
+CLS = "countries/Calais.txt"
+
+# Low countries
+BSS = "countries/Brussel.txt"
+ANW = "countries/Antwerp.txt"
+
+# Britain
+DNL = "countries/Danelaw.txt"
+
+# Eastern Europe
+SCL = "countries/Sclavenia.txt"
+
+# Middle East
+MHD = "countries/Mahdiyya.txt"			# Mahdiyya - Arabic - the guided one
+
+# Persia
+YER = "countries/Yerevan.txt"			# Named after province in game
+SIR = "countries/Siroidisids.txt"		# Sir - Azerbaijani - lion & oidis - Greek - common name suffix
+KHL = "countries/Khalidzaids.txt" 		# Khalid - Arabic - eternal/immortal & -zai - Afghan - denotes descent
+KHW = "countries/Khwarazmia.txt" 		# Historical
+NIS = "countries/Nishapur.txt"			# Named after province in game
+NAS = "countries/Naseemshah.txt"		# Naseem - Arabic & Persian - gentle breeze & shah - ruler
+SHH = "countries/Shahzadaftabistan.txt"	# Land of the Rulers Enlightened by the Sun 
+BDK = "countries/Badakhshan.txt"		# Named after province in game
+BEH = "countries/Behzadian.txt"			# Behzad - Persian - noble/virtuous & -ian - Persian - family association => "belonging to the noble/virtuous family"
+NSR = "countries/Nasirullahzadeh.txt"	# Nasir - Arabic - helper/defender & Allah - Arabic - God & -zadeh - Persian - descendant of
+
+# India
+GIK = "countries/Graeco-indian.txt"		# Graeco-Indian kingdom from Alexander's time
+PRA = "countries/Parsia.txt"
+CHW = "countries/Chowta.txt"			# Chowta Dynasty
+MJT = "countries/Majatia.txt"			# From Somali "Majaan," meaning conquerors or victors
+
+# Southeast Asia
+SUV = "countries/Suvarga.txt"			# From Mongolian, meaning "golden"

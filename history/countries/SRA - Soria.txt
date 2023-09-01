@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = castillian
+religion = catholic
+technology_group = western
+capital = 2755 # Soria
+government_rank = 1
+
+add_army_professionalism = 0.05
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Carlos II"
+		dynasty = "de Soira"
+		birth_date = 1385.7.2
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

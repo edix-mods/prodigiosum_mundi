@@ -1,0 +1,24 @@
+#238 - Essex
+#+part of Cambridgeshire
+
+owner = ESX
+controller = ESX
+culture = english
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 2
+capital = "Colneceastre"
+is_city = yes
+add_core = ESX
+fort_15th = yes
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 178	# Anjou
+fixed_capital = 178 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Louis X"
+		dynasty = "d'Anjou"
+		birth_date = 1384.9.25
+		death_date = 1445.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+
+	heir = {
+		name = "Louis"
+		dynasty = "d'Anjou"
+		birth_date = 1414.10.1
+		death_date = 1445.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+
+	queen = {
+		name = "Béatrix"
+		dynasty = "de Metz"
+		birth_date = 1414.10.1
+		death_date = 1445.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+		female = yes
+		country_of_origin = LOR
+	}
+
+}

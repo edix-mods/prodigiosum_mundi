@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = sclaveni
+religion = orthodox
+government_rank = 1
+capital = 155 # Bekes
+technology_group = eastern
+
+1444.11.11 = {
+	monarch = {
+		name = "Svätopluk"
+		dynasty = "Podunajsky"
+		birth_date = 1405.7.5
+		death_date = 1445.1.1
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+
+	heir = {
+		name = "Cyril"
+		dynasty = "Podunajsky"
+		birth_date = 1431.4.28
+		death_date = 1445.1.1
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+
+	queen = {
+		name = "Eliška"
+		dynasty = "z Devína"
+		birth_date = 1408.1.18
+		death_date = 1445.1.1
+		adm = 0
+		dip = 2
+		mil = 0
+		female = yes
+	}
+}
+
+

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = slovak
+religion = catholic
+technology_group = eastern
+capital = 154 # Nitra
+fixed_capital = 154
+government_rank = 1

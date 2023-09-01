@@ -1,0 +1,37 @@
+government = monarchy
+add_government_reform = portuguese_monarchy_reform
+primary_culture = portugese
+religion = catholic
+technology_group = western
+capital = 231 # Porto
+add_army_professionalism = 0.05
+government_rank = 1
+
+1444.1.1 = {
+	monarch = {
+		name = "Afonso IV"
+		dynasty = "de Portugal"
+		birth_date = 1403.12.31
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+
+	heir = {
+		name = "Fernando"
+		dynasty = "de Portugal"
+		birth_date = 1434.10.17
+		death_date = 1445.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+
+	queen = {
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}

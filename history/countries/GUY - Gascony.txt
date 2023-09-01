@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = gascon
+religion = catholic
+capital = 174 	# Bordeaux
+elector = yes
+
+1444.1.1 = {
+	monarch = {
+		name = "Érrard"
+		dynasty = "de Berdeaux"
+		birth_date = 1411.9.1
+		death_date = 1445.1.1
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

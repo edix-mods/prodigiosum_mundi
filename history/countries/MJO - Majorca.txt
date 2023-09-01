@@ -1,0 +1,21 @@
+government = monarchy
+
+add_government_reform = iqta
+
+religion = sunni
+primary_culture = andalucian
+technology_group = muslim
+capital = 333	# Majorca
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "Abbas"
+		dynasty = "Amirid"
+		birth_date = 1409.3.19
+		death_date = 1445.1.1
+		adm = 1
+		dip = 6
+		mil = 3
+	}
+}

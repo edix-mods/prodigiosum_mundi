@@ -1,0 +1,42 @@
+taifa_reform = {
+	icon = "muslim"
+	allow_convert = no
+	allow_normal_conversion = no
+	#legacy_equivalent = 
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		diplomatic_reputation = 2
+		rival_change_cost = -0.75
+		unjustified_demands = -0.2
+		nobles_influence_modifier = 0.05
+		maratha_exclusive_influence_modifier = 0.05
+		rajput_exclusive_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+altaayish_reform = {
+	icon = "muslim"
+	allow_normal_conversion = yes
+	#legacy_equivalent = 
+	valid_for_nation_designer = no
+	modifiers = {
+		tolerance_heathen = 3
+		religious_unity = 0.25
+	}
+	ai = {
+		factor = 1
+	}
+}

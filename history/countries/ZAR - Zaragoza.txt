@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = taifa_reform
+primary_culture = andalucian
+religion = sunni
+technology_group = muslim
+capital = 214	# Zaragoza
+government_rank = 1
+religious_school = maliki_school
+add_army_professionalism = 0.05
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 8
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 7
+}

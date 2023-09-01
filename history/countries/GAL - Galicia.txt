@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = galician
+religion = catholic
+technology_group = western
+capital = 206	# Galicia
+government_rank = 1
+
+1444.1.1 = {
+	monarch = {
+		name = "García I"
+		dynasty = "Osorio"
+		birth_date = 1379.11.8
+		death_date = 1445.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 0
+	}
+
+	heir = {
+		name = "Xorxe"
+		birth_date = 1426.5.30
+		death_date = 1445.1.1
+		claim = 95
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+
+	queen = {
+		name = "Sofía"
+		dynasty = "Garmendia"
+		birth_date = 1383.7.10
+		death_date = 1445.1.1
+		adm = 2
+		dip = 1
+		mil = 3
+		female = yes
+	}
+}

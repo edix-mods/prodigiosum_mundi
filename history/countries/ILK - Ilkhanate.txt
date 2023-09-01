@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = mongol
+add_accepted_culture = persian
+religion = sunni
+technology_group = muslim
+capital = 445 # Merv
+fixed_capital = 4338 # Soltaniyeh
+
+1444.1.1 = {
+	monarch = {
+		name = "Örüg"
+		dynasty = "Ilkhanid"
+		birth_date = 1399.9.12
+		death_date = 1445.1.1
+		adm = 1
+		dip = 0
+		mil = 2		
+	}
+}

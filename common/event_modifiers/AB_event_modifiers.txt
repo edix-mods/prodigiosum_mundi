@@ -1,0 +1,17 @@
+# harmonized_maitreya in PM_harmonization
+
+han_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+amur_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+hai_estuary_modifier = {
+	province_trade_power_value = 5
+}
+
+scramble_for_africa = {
+	picture = "inlandafrica"
+}

@@ -1,0 +1,23 @@
+#4370 - Cambridgeshire
+#Includes Cambridgeshire+Huntingdonshire+Bedfordshire
+
+owner = ESX
+controller = ESX
+culture = english
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+capital = "Grantebrycge"
+is_city = yes
+add_core = ESX
+fort_15th = yes
+seat_in_parliament = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

@@ -1,0 +1,19 @@
+# 2110 - Yehe
+
+owner = LIO
+controller = LIO
+add_core = LIO
+culture = khitan
+religion = sarvadharmayana
+capital = "Yehe"
+trade_goods = fur
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group

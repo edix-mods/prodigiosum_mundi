@@ -1,0 +1,89 @@
+﻿l_english:
+
+ ## IBERIA ##
+ BDJ:0 "Badajoz"
+ BDJ_ADJ:0 "Badajozan"
+ AGV:0 "Algavre"
+ AGV_ADJ:0 "Algavrian"
+ SEV:0 "Isbiliya"
+ SEV_ADJ:0 "Isbiliyan"
+ CRD:0 "Cordoba"
+ CRD_ADJ:0 "Cordoban" 
+ MGA:0 "Malaga"
+ MGA_ADJ:0 "Malagan"
+ TOL:0 "Toledo"
+ TOL_ADJ:0 "Toledan"
+ MUR:0 "Murcia"
+ MUR_ADJ:0 "Murcian"
+ MVL:0 "Balansiyya"
+ MVL_ADJ:0 "Balansiyyan"
+ ZAR:0 "Saraqusta"
+ ZAR_ADJ:0 "Saraqustan" 
+ BRC:0 "Barcelona"
+ BRC_ADJ:0 "Barcelonian"
+ SRA:0 "Soria"
+ SRA_ADJ:0 "Sorian"
+ RIO:0 "Rioja"
+ RIO_ADJ:0 "Riojan"
+ 
+ ## France ##
+ ANJ:0 "Anjou"
+ ANJ_ADJ:0 "Angevin"
+ PRS:0 "Paris"
+ PRS_ADJ:0 "Parisian"
+ CLS:0 "Calais"
+ CLS_ADJ:0 "Calaisian"
+
+ ## Low Countries ##
+ ANW:0 "Antwerp"
+ ANW_ADJ:0 "Antwerpian"
+ BSS:0 "Brussel"
+ BSS_ADJ:0 "Brussels"
+ 
+ # Britian
+ DNL:0 "Danelaw"
+ DNL_ADJ:0 "Danelawic"
+
+ ## Eastern Europe ##
+ SCL:0 "Sclavenia"
+ SCL_ADJ:0 "Sclavenian"
+
+ ## Middle East ##
+ MHD:0 "Mahdiyya"
+ MHD_ADJ:0 "Mahdiyyan"
+
+ ## Persia ##
+ YER:0 "Yerevan"
+ YER_ADJ:0 "Yerevani"
+ SIR:0 "Siroidisids"
+ SIR_ADJ:0 "Siroidisid"
+ KHL:0 "Khalidzaids"
+ KHL_ADJ:0 "Khalidzaid"
+ KHW:0 "Khwarazmia"
+ KHW_ADJ:0 "Khwarazmian"
+ NIS:0 "Nishapur"
+ NIS_ADJ:0 "Nishapuri"
+ NAS:0 "Naseemshah"
+ NAS_ADJ:0 "Naseemshahi"
+ SHH:0 "Shahzadaftabistan"
+ SHH_ADJ:0 "Shahzadaftabistani"
+ BDK:0 "Badakhshan"
+ BDK_ADJ:0 "Badakhshani"
+ BEH:0 "Behzadian"
+ BEH_ADJ:0 "Behzadiani"
+ NSR:0 "Nasirullahzadeh"
+ NSR_ADJ:0 "Nasirullahzadehi"
+ 
+ ## India ##
+ GIK:0 "Graeco-Indian Empire"
+ GIK_ADJ:0 "Graeco-Indian"
+ PRA:0 "Parsia"
+ PRA_ADJ:0 "Parsian"
+ CHW:0 "Chowta"
+ CHW_ADJ:0 "Chowtan"
+ MJT:0 "Majatia"
+ MJT_ADJ:0 "Majatian"
+
+ ## SEA ##
+ SUV:0 "Suvarga Khanate"
+ SUV:0 "Suvargan"

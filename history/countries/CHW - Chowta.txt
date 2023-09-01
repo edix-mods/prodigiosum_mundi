@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = kannada
+religion = jainism
+technology_group = indian
+capital = 2029	# South Kanara 
+
+1444.1.1 = {
+	monarch = {
+		name = "Châma Râja"
+		dynasty = "Chowta"
+		birth_date = 1424.8.27
+		death_date = 1445.1.1
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}

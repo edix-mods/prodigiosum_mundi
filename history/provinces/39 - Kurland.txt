@@ -1,0 +1,23 @@
+#Kurland, center at Goldingen
+
+owner = LVA
+controller = LVA
+add_core = LVA
+add_core = CUR
+culture = Curonian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Kuldiga"
+estate = estate_church #Pilten
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

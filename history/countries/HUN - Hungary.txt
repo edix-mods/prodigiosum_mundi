@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hungarian
+add_accepted_culture = bashkir
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 1972 # Udmurtia
+
+1444.1.1 = {
+	monarch = {
+		name = "Lajos"
+		dynasty = "Árpad"
+		birth_date = 1399.11.28
+		death_date = 1445.1.1
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+
+	heir = {
+		name = "Géza"
+		dynasty = "Árpad"
+		birth_date = 1421.4.11
+		death_date = 1445.1.1
+		adm = 6
+		dip = 2
+		mil = 6
+	}
+
+	queen = {
+		name = "Gizella"
+		dynasty = "Magyary"
+		birth_date = 1404.5.19
+		death_date = 1445.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+

@@ -1,0 +1,39 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = chinese
+religion = sarvadharmayana
+primary_culture = khitan
+capital = 4203
+
+1444.1.1 = {
+	monarch = {
+		name = "Altan"
+		dynasty = "Liao"
+		birth_date = 1412.5.15
+		death_date = 1445.1.1
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+
+	heir = {
+		name = "Ligdan"
+		dynasty = "Liao"
+		birth_date = 1439.8.9
+		death_date = 1445.1.1
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+
+	queen = {
+		name = "Sorghaghtani"
+		dynasty = "Sartaq"
+		birth_date = 1418.9.12
+		death_date = 1445.1.1
+		adm = 4
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}

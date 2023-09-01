@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = surooriyah
+primary_culture = ruthenian
+capital = 280	# Kiev
+fixed_capital = 280 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad IX"
+		dynasty = "Kyid"
+		birth_date = 1388.6.26
+		death_date = 1445.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+
+	heir = {
+		name = "Muhammad"
+		dynasty = "Kyid"
+		birth_date = 1406.4.6
+		death_date = 1445.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+
+	queen = {
+		name = "Shahira"
+		dynasty = "Rurikovid"
+		birth_date = 1392.7.24
+		death_date = 1445.1.1
+		adm = 2
+		dip = 6
+		mil = 1
+		female = yes
+	}
+}

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = maitreya
+primary_culture = xiang
+capital = 682	#Wuchang
+
+1444.1.1 = {
+	monarch = {
+		name = "Jianshu"
+		dynasty = "Xiaolou"
+		birth_date = 1405.10.5
+		death_date = 1445.1.1
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+
+}

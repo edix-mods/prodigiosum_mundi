@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = parsi
+add_accepted_culture = gujarati
+religion = zoroastrian
+technology_group = indian
+capital = 4430	# Daman
+
+1444.11.11 = {
+	monarch = {
+		name = "Sarafraz"
+		dynasty = "Damania"
+		birth_date = 1405.11.2
+		death_date = 1445.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+
+	heir = {
+		name = "Arshan"
+		dynasty = "Damania"
+		birth_date = 1431.7.10
+		death_date = 1445.1.1
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+
+	queen = {
+		name = "Banugul"
+		dynasty = "Bulsara"
+		birth_date = 1407.2.28
+		death_date = 1445.1.1
+		adm = 4
+		dip = 4
+		mil = 0
+		female = yes
+	}
+}

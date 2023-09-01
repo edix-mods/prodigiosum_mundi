@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+technology_group = iranian
+religion = mahayana
+primary_culture = afghani
+capital = 452	# Badakhshan
+

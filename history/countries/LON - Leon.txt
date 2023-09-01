@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = catholic
+technology_group = western
+capital = 208 #Leon
+elector = yes
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Oveco"
+		dynasty = "de Leon"
+		birth_date = 1419.9.9
+		claim = 100
+		adm = 5 
+		dip = 5
+		mil	= 6
+	}
+}
