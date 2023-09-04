@@ -7,7 +7,6 @@ taifa_reform = {
 
 	allow_convert = no
 	allow_normal_conversion = no
-	locked_government_type = yes
 	#legacy_equivalent = 
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
