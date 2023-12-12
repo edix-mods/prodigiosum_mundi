@@ -11,7 +11,8 @@ tags={
 	"Religion"
 }
 name="Prodigiosum Mundi"
-supported_version="1.35.1"
+supported_version="1.36.2"
 
 replace_path="history/diplomacy"
-replace_path = "missions"
+replace_path ="missions"
+replace_path ="common/cultures"
