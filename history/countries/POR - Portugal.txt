@@ -30,6 +30,10 @@ government_rank = 1
 	}
 
 	queen = {
+		name = "Teresa"
+		dynasty = "Alburquerque"
+		birth_date = 1410.1.19
+		death_date = 1445.1.1
 		adm = 2
 		dip = 5
 		mil = 1
