@@ -4,7 +4,7 @@ government_rank = 3
 technology_group = western
 primary_culture = saxon
 add_accepted_culture = czech
-add_accepted_culture = silesian
+add_accepted_culture = schlesian
 religion = catholic
 capital = 266	# Prague
 
