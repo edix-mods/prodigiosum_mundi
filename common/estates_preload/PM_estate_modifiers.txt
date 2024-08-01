@@ -1,0 +1,299 @@
+estate_bohemia = {
+	modifier_definition = {
+		type = loyalty
+		key = bohemia_loyalty_modifier
+		trigger = {
+			has_estate = estate_bohemia
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = bohemia_influence_modifier
+		trigger = {
+			has_estate = estate_bohemia
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = bohemia_privilege_slots
+		trigger = {
+			has_estate = estate_bohemia
+		}
+	}
+}
+
+estate_hannover = {
+	modifier_definition = {
+		type = loyalty
+		key = hannover_loyalty_modifier
+		trigger = {
+			has_estate = estate_hannover
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = hannover_influence_modifier
+		trigger = {
+			has_estate = estate_hannover
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = hannover_privilege_slots
+		trigger = {
+			has_estate = estate_hannover
+		}
+	}
+}
+
+estate_saxony = {
+	modifier_definition = {
+		type = loyalty
+		key = saxony_loyalty_modifier
+		trigger = {
+			has_estate = estate_saxony
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = saxony_influence_modifier
+		trigger = {
+			has_estate = estate_saxony
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = saxony_privilege_slots
+		trigger = {
+			has_estate = estate_saxony
+		}
+	}
+}
+
+estate_pommerania = {
+	modifier_definition = {
+		type = loyalty
+		key = pommerania_loyalty_modifier
+		trigger = {
+			has_estate = estate_pommerania
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = pommerania_influence_modifier
+		trigger = {
+			has_estate = estate_pommerania
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = pommerania_privilege_slots
+		trigger = {
+			has_estate = estate_pommerania
+		}
+	}
+}
+
+estate_swabia = {
+	modifier_definition = {
+		type = loyalty
+		key = swabia_loyalty_modifier
+		trigger = {
+			has_estate = estate_swabia
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = swabia_influence_modifier
+		trigger = {
+			has_estate = estate_swabia
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = swabia_privilege_slots
+		trigger = {
+			has_estate = estate_swabia
+		}
+	}
+}
+
+estate_franconia = {
+	modifier_definition = {
+		type = loyalty
+		key = franconia_loyalty_modifier
+		trigger = {
+			has_estate = estate_franconia
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = franconia_influence_modifier
+		trigger = {
+			has_estate = estate_franconia
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = franconia_privilege_slots
+		trigger = {
+			has_estate = estate_franconia
+		}
+	}
+}
+
+estate_bavaria = {
+	modifier_definition = {
+		type = loyalty
+		key = bavaria_loyalty_modifier
+		trigger = {
+			has_estate = estate_bavaria
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = bavaria_influence_modifier
+		trigger = {
+			has_estate = estate_bavaria
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = bavaria_privilege_slots
+		trigger = {
+			has_estate = estate_bavaria
+		}
+	}
+}
+
+estate_silesia = {
+	modifier_definition = {
+		type = loyalty
+		key = silesia_loyalty_modifier
+		trigger = {
+			has_estate = estate_silesia
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = silesia_influence_modifier
+		trigger = {
+			has_estate = estate_silesia
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = silesia_privilege_slots
+		trigger = {
+			has_estate = estate_silesia
+		}
+	}
+}
+
+estate_austria = {
+	modifier_definition = {
+		type = loyalty
+		key = austria_loyalty_modifier
+		trigger = {
+			has_estate = estate_austria
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = austria_influence_modifier
+		trigger = {
+			has_estate = estate_austria
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = austria_privilege_slots
+		trigger = {
+			has_estate = estate_austria
+		}
+	}
+}
+
+estate_westfalia = {
+	modifier_definition = {
+		type = loyalty
+		key = westfalia_loyalty_modifier
+		trigger = {
+			has_estate = estate_westfalia
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = westfalia_influence_modifier
+		trigger = {
+			has_estate = estate_westfalia
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = westfalia_privilege_slots
+		trigger = {
+			has_estate = estate_westfalia
+		}
+	}
+}
+
+estate_hesse = {
+	modifier_definition = {
+		type = loyalty
+		key = hesse_loyalty_modifier
+		trigger = {
+			has_estate = estate_hesse
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = hesse_influence_modifier
+		trigger = {
+			has_estate = estate_hesse
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = hesse_privilege_slots
+		trigger = {
+			has_estate = estate_hesse
+		}
+	}
+}
+
+estate_brandenburg = {
+	modifier_definition = {
+		type = loyalty
+		key = brandenburg_loyalty_modifier
+		trigger = {
+			has_estate = estate_brandenburg
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = brandenburg_influence_modifier
+		trigger = {
+			has_estate = estate_brandenburg
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = brandenburg_privilege_slots
+		trigger = {
+			has_estate = estate_brandenburg
+		}
+	}
+}

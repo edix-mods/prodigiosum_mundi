@@ -1,0 +1,73 @@
+estate_hannover = {
+	icon = 17
+
+	# If true, country will get estate
+	trigger = {
+		tag = GER 
+		any_owned_province = {
+			is_core = HAN
+		}
+	}
+
+	country_modifier_happy = {
+		manpower_recovery_speed = 0.2 
+		land_maintenance_modifier = -0.1
+		monthly_support_heir_gain = 0.1
+		rr_royalists_influence = 0.2
+	}
+	country_modifier_neutral = {
+		manpower_recovery_speed = 0.2 
+		rr_royalists_influence = 0.1
+	}	
+	country_modifier_angry = {
+		manpower_recovery_speed = -0.1
+		land_maintenance_modifier = 0.1
+		monthly_support_heir_gain = -0.2
+		global_unrest = 2
+		rr_royalists_influence = -0.1
+	}
+	land_ownership_modifier = {
+		hannover_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			culture_group = owner
+			religion_group = owner
+		}
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { is_state_core = owner }
+		}
+	}
+
+	# Influence modifiers
+	base_influence = 10
+	
+	color = { 164  217  127 }
+	
+	privileges = {
+		estate_hannover_legal_autonomy_privilege
+		estate_hannover_governing_autonomy_privilege
+		estate_hannover_tax_autonomy_privilege
+		estate_hannover_private_armies_privilege
+		estate_hannover_enforced_serfdom_privilege
+		estate_hannover_tax_exemption_privilege
+	}
+
+	agendas = {
+
+	}
+	
+	influence_from_dev_modifier = 1.0
+}

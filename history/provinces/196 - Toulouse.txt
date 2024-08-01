@@ -2,6 +2,7 @@
 
 owner = TOU
 controller = TOU
+add_core = TOU
 capital = "Toulouse"
 is_city = yes
 culture = occitain

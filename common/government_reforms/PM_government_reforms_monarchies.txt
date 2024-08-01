@@ -45,3 +45,38 @@ altaayish_reform = {
 		factor = 1
 	}
 }
+
+german_confederation_reform = {
+	icon = "tribal_centralize_power"
+
+	trigger = {
+		tag = GER
+	}
+
+	allow_convert = no
+	allow_normal_conversion = no
+	#legacy_equivalent = 
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		austria_privilege_slots = 6
+		bavaria_privilege_slots = 6
+		bohemia_privilege_slots = 6
+		brandenburg_privilege_slots = 6
+		franconia_privilege_slots = 6
+		hannover_privilege_slots = 6
+		hesse_privilege_slots = 6
+		pommerania_privilege_slots = 6
+		saxony_privilege_slots = 6
+		silesia_privilege_slots = 6
+		swabia_privilege_slots = 6
+		westfalia_privilege_slots = 6
+	}
+	custom_attributes = {
+		
+		locked_government_type = yes
+	}
+	ai = {
+		factor = 0
+	}
+}

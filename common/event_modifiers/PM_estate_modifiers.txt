@@ -1,0 +1,60 @@
+estate_legal_autonomy = {
+	local_governing_cost = -0.2
+	min_local_autonomy = 20
+}
+
+estate_governing_autonomy = {
+	local_state_maintenance_modifier = -0.66
+	local_governing_cost = -0.2
+	min_local_autonomy = 20
+}
+
+estate_tax_autonomy = {
+	local_tax_modifier = -0.15
+	local_governing_cost = -0.2
+	min_local_autonomy = 20
+}
+
+estate_private_armies = {
+	local_manpower_modifier = -0.2
+	min_local_autonomy = 20
+}
+
+estate_serfdom = {
+	local_unrest = -2
+	local_development_cost = 0.1
+	local_institution_spread = -0.33
+}
+
+estate_castle_privilege = {
+	local_fort_maintenance_modifier = -0.8
+}
+
+estate_religious_freedom = {
+	local_religious_unity_contribution = -1
+	min_local_autonomy = 2
+}
+
+estate_duchy_tirol = {
+	min_local_autonomy = 10
+}
+
+estate_duchy_styria = {
+	min_local_autonomy = 10
+}
+
+estate_duchy_cilli = {
+	min_local_autonomy = 10
+}
+
+estate_duchy_munich = {
+	min_local_autonomy = 10
+}
+
+estate_duchy_landshut = {
+	min_local_autonomy = 10
+}
+
+estate_duchy_ingolstadt = {
+	min_local_autonomy = 10
+}

@@ -1,0 +1,65 @@
+estate_austria = {
+	icon = 24
+
+	# If true, country will get estate
+	trigger = {
+		tag = GER 
+		any_owned_province = {
+			is_core = HAB
+		}
+	}
+
+	country_modifier_happy = {
+		legitimacy = 1
+		global_unrest = -1
+		stability_cost_modifier = -0.1
+		global_manpower_modifier = 0.05
+		global_tax_modifier = 0.05
+	}
+	country_modifier_neutral = {
+		legitimacy = 0.5
+	}	
+	country_modifier_angry = {
+		legitimacy = -2
+		stability_cost_modifier = 0.25
+		global_spy_defence = -0.15
+		yearly_corruption = 0.1
+	}
+	land_ownership_modifier = {
+		austria_loyalty_modifier = 0.05
+	}
+
+	province_independence_weight = {
+		factor = 0
+		modifier = {
+			factor = 100
+			is_core = HAB
+		}
+	}
+
+	# Influence modifiers
+	base_influence = 10
+	
+	color = { 220  220  220 }
+	
+	privileges = {
+		estate_austria_legal_autonomy_privilege
+		estate_austria_governing_autonomy_privilege
+		estate_austria_tax_autonomy_privilege
+		estate_austria_private_armies_privilege
+		estate_austria_enforced_serfdom_privilege
+		estate_austria_tax_exemption_privilege
+		estate_austria_inheritence_privilege
+		estate_austria_religious_freedom_privilege
+		estate_austria_castle_privilege
+		estate_austria_tirol_privilege
+		estate_austria_styria_privilege
+		estate_austria_cilli_privilege
+	}
+
+	agendas = {
+
+	}
+	
+	influence_from_dev_modifier = 1.0
+}

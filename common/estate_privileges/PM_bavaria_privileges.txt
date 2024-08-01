@@ -1,0 +1,530 @@
+estate_bavaria_legal_autonomy_privilege = {
+	icon = privilege_legal_autonomy
+	max_absolutism = -10
+	conditional_modifier = { 
+		trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+		modifier = { max_absolutism = 1 } 
+	}
+	loyalty = 0.05
+	influence = 0.1
+	
+	on_granted = {
+		custom_tooltip = estate_legal_autonomy_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_legal_autonomy
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_legal_autonomy_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_legal_autonomy
+			}
+			remove_province_modifier = estate_legal_autonomy
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_legal_autonomy_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_legal_autonomy
+			}
+			remove_province_modifier = estate_legal_autonomy
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_governing_autonomy_privilege = {
+	icon = privilege_government_autonomy
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+	on_granted = {
+		custom_tooltip = estate_governing_autonomy_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_governing_autonomy
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_governing_autonomy_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_governing_autonomy
+			}
+			remove_province_modifier = estate_governing_autonomy
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_governing_autonomy_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_governing_autonomy
+			}
+			remove_province_modifier = estate_governing_autonomy
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_tax_autonomy_privilege = {
+	icon = privilege_tax_autonomy
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+	on_granted = {
+		custom_tooltip = estate_tax_autonomy_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_tax_autonomy
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_tax_autonomy_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_tax_autonomy
+			}
+			remove_province_modifier = estate_tax_autonomy
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_tax_autonomy_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_tax_autonomy
+			}
+			remove_province_modifier = estate_tax_autonomy
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_private_armies_privilege = {
+	icon = privilege_armies
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+	on_granted = {
+		custom_tooltip = estate_private_armies_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_private_armies
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_private_armies_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_private_armies
+			}
+			remove_province_modifier = estate_private_armies
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_private_armies_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_private_armies
+			}
+			remove_province_modifier = estate_private_armies
+		}
+	}
+
+	penalties = {
+		land_forcelimit_modifier = -0.05
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_enforced_serfdom_privilege = {
+	icon = privilege_serf
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+	on_granted = {
+		custom_tooltip = estate_serfdom_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_serfdom
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_serfdom_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_serfdom
+			}
+			remove_province_modifier = estate_serfdom
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_serfdom_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_serfdom
+			}
+			remove_province_modifier = estate_serfdom
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_tax_exemption_privilege = {
+	icon = privilege_tax_exemption
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+
+	penalties = {
+		global_tax_modifier = -0.05
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_religious_freedom_privilege = {
+	icon = privilege_religious_freedom
+	max_absolutism = -20
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.2
+	influence = 0.2
+	on_granted = {
+		custom_tooltip = estate_religious_freedom_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_religious_freedom
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_religious_freedom_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_religious_freedom
+			}
+			remove_province_modifier = estate_religious_freedom
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_religious_freedom_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_religious_freedom
+			}
+			remove_province_modifier = estate_religious_freedom
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_castle_privilege = {
+	icon = privilege_fort
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.2
+	on_granted = {
+		custom_tooltip = estate_castle_privilege_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = BAV
+			}
+			add_province_modifier = {
+				name = estate_castle_privilege
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_castle_privilege_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_castle_privilege
+			}
+			remove_province_modifier = estate_castle_privilege
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_castle_privilege_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = BAV
+				has_province_modifier = estate_castle_privilege
+			}
+			remove_province_modifier = estate_castle_privilege
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_munich_privilege = {
+	icon = privilege_duchy_of_munich
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	on_granted = {
+		custom_tooltip = estate_munich_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = MUN
+			}
+			add_province_modifier = {
+				name = estate_duchy_munich
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_munich_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_munich
+			}
+			remove_province_modifier = estate_duchy_munich
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_munich_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_munich
+			}
+			remove_province_modifier = estate_duchy_munich
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_landshut_privilege = {
+	icon = privilege_duchy_of_landshut
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	on_granted = {
+		custom_tooltip = estate_landshut_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = MUN
+			}
+			add_province_modifier = {
+				name = estate_duchy_landshut
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_landshut_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_landshut
+			}
+			remove_province_modifier = estate_duchy_landshut
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_landshut_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_landshut
+			}
+			remove_province_modifier = estate_duchy_landshut
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_bavaria_ingolstadt_privilege = {
+	icon = privilege_duchy_of_ingolstadt
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	on_granted = {
+		custom_tooltip = estate_ingolstadt_bav_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				owned_by = GER
+				is_core = MUN
+			}
+			add_province_modifier = {
+				name = estate_duchy_ingolstadt
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_ingolstadt_bav_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_ingolstadt
+			}
+			remove_province_modifier = estate_duchy_ingolstadt
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_ingolstadt_bav_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				is_core = TIR
+				has_province_modifier = estate_duchy_ingolstadt
+			}
+			remove_province_modifier = estate_duchy_ingolstadt
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
