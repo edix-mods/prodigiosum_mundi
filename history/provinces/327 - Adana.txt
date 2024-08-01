@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = armenian
+culture = hittitte
 religion = coptic
 capital = "Adana"
 trade_goods = cotton

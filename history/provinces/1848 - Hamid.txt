@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = sidetic
 religion = orthodox
 capital = "Burdur"
 trade_goods = grain

@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = lycian
 religion = orthodox
 capital = "Adalia"
 trade_goods = cotton
