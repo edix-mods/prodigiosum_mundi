@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = carian
+culture = greek
 religion = orthodox
 capital = "Mylasa"
 trade_goods = salt

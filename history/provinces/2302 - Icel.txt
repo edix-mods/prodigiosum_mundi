@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = lycian
+culture = greek
 religion = orthodox
 capital = "Ermenek"
 trade_goods = naval_supplies

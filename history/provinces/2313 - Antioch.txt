@@ -2,7 +2,7 @@
 
 owner = MHD
 controller = MHD
-culture = luwian
+culture = al_suryah_arabic
 religion = sunni
 capital = "Antioch"
 trade_goods = cloth

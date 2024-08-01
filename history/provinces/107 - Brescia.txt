@@ -3,7 +3,7 @@
 owner = VRN		# From 1426
 controller = VRN
 add_core = VRN
-culture = rheatic 
+culture = lombard 
 religion = catholic 
 hre = yes 
 base_tax = 5

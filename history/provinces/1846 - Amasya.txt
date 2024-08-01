@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = palaic
+culture = greek
 religion = orthodox
 capital = "Amasya"
 trade_goods = paper #and iron

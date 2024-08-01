@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = luwian
+culture = al_suryah_arabic
 religion = orthodox
 capital = "Halab"
 trade_goods = silk

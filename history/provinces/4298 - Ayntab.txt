@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = luwian
+culture = armenian
 religion = coptic
 capital = "Ayntab"
 trade_goods = wool
