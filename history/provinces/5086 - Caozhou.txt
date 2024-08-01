@@ -3,7 +3,7 @@
 owner = QIC
 controller = QIC
 add_core = QIC
-culture = zhongyuan
+culture = chihan
 religion = confucianism
 capital = "Caozhou"
 trade_goods = livestock

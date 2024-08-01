@@ -1,0 +1,32 @@
+merc_austria_army = {
+    mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+
+    regiments_per_development = 0.05        # Size of the mercenary company based on the recruiting country's development. (always rounds down)
+    cost_modifier = 0                   # Cost multiplier of the mercenary company. Note that there is a base +50% maintenance cost on mercenaries applied after this multiplier.
+
+    cavalry_weight = 0.2                    # Fraction of the army that is composed of cavalry.
+    artillery_weight = 0.4                  # Fraction of the army that is composed of artillery.
+    
+    cavalry_cap = 4                         # Mercenary company will never have more than this many cavalry.
+
+    sprites = { hab_base_sprite_pack westerngfx_sprite_pack }    # Unit graphics that the mercenary company uses.
+
+    trigger = {                             # The conditions for the mercenary company to be shown in the mercenary recruitment tab.
+        has_country_flag = ger_raise_armies_flag
+        has_estate = estate_austria
+        estate_loyalty = {
+            estate = estate_austria
+            loyalty = 40
+        }  
+    }
+
+    modifier = {                            # Modifier that is applied to the regiments of the mercenary company. Note that they receive your nation's army modifiers as well.
+        land_morale = 0.05
+    }
+
+    counts_towards_force_limit = no       # If mercenary company counts toward force limit
+    # min_size = 4                          # Minimum size of the mercenary army
+    # max_size = 20                         # Maximum size of the mercenary army
+    # manpower_pool = 50                    # Starting manpower pool
+    # no_additional_manpower_from_max_size = yes  # If extra manpower from company being above max_size is transfered to company's manpower pool
+}

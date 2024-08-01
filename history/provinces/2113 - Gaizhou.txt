@@ -3,7 +3,7 @@
 owner = LIO
 controller = LIO
 add_core = LIO
-culture = khitan
+culture = shandong_culture
 religion = sarvadharmayana
 capital = "Gaizhou"
 trade_goods = fish

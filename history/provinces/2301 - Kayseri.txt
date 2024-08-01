@@ -2,7 +2,7 @@
 
 owner = BYZ
 controller = BYZ
-culture = greek
+culture = hittitte
 religion = orthodox
 capital = "Kayseri"
 trade_goods = iron

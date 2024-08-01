@@ -1,0 +1,20 @@
+country_decisions = {
+
+	ger_raise_estate_armies = {
+		potential = {
+			tag = GER
+			OR = {
+				has_estate_privilege = estate_austria_private_armies_privilege
+				#has_estate_privilege = 
+			}
+			is_at_war = yes
+		}
+		allow = {
+			is_allowed_to_recruit_mercenaries = yes
+			
+		}
+		effect = {
+			set_country_flag = ger_raise_armies_flag
+		}
+	}
+}

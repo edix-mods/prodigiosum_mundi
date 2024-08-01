@@ -3,7 +3,7 @@
 owner = CHC
 controller = CHC
 add_core = CHC
-culture = hubei
+culture = zhongyuan
 religion = confucianism
 capital = "Hanyang"
 trade_goods = cloth
